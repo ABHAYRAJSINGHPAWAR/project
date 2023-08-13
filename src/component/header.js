@@ -1,5 +1,5 @@
 import { Navbar,Nav,Container} from 'react-bootstrap';
-import { FaUncharted, FaUser } from 'react-icons/fa';
+import { FaUncharted, FaUser,FaGitlab,FaSlack,FaPaypal,FaFacebook } from 'react-icons/fa';
 
 
 const Header =() =>{
@@ -35,10 +35,8 @@ const Header =() =>{
                 </Nav>   
                 
                 
-                
-               
                 <Nav className='ms-auto'>
-                <img src="sample.jpg" alt="Italian Trulli" width="250" height="360" ></img>
+                <img src="abhay.jpg" alt="Italian Trulli" width="250" height="360" ></img>
                 </Nav>
                 
             </Navbar>
@@ -53,6 +51,21 @@ const Header =() =>{
                 </Navbar>
                 <Navbar bg='dark' variant ="dark" expand='md' collapseOnSelect>
                 <button type="button" class="btn btn-primary">Get Started</button>
+                    </Navbar>
+
+                    
+                <Navbar bg='dark' variant ="dark" expand='md' collapseOnSelect>
+               <Nav><br></br>
+               <br></br>
+                <h2> Who support us</h2> </Nav>
+               </Navbar>
+                    <Navbar bg='dark' variant ="dark" expand='md' collapseOnSelect>
+                    <Nav>
+                <FaGitlab/><h5>GitLab</h5> 
+                <FaSlack/> <h5>Slack</h5>
+                <FaFacebook/> <h5>Facebook</h5>
+                <FaPaypal/> <h5>PayPal</h5>
+                </Nav>
                     </Navbar>
         </header>
     )
