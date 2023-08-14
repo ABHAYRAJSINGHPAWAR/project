@@ -1,6 +1,7 @@
 import { Navbar,Nav,Container} from 'react-bootstrap';
 import { FaUncharted, FaUser,FaGitlab,FaSlack,FaPaypal,FaFacebook } from 'react-icons/fa';
 
+ 
 
 const Header =() =>{
     return (
@@ -25,17 +26,15 @@ const Header =() =>{
                     </Navbar.Collapse>
 
                 </Container>
-                
-
-            
+                            
             </Navbar>
-            <Navbar bg='dark' variant ="dark"  >
+            <Navbar bg='dark' variant ="dark" expand='md' collapseOnSelect >
              <Nav >
-                <h1>Your Supercharged <br></br>Design Workflow.</h1>
+                <h1 >Your Supercharged <br></br>Design Workflow.</h1>
                 </Nav>   
                 
                 <Nav className='ms-auto' padding='6'>
-                <img src="abhay.jpg" alt="Italian Trulli" width="250" height="360" ></img>
+                <img src="sample.jpg" alt="Italian Trulli" width="250" height="360" ></img>
                 </Nav>
                 
                 
