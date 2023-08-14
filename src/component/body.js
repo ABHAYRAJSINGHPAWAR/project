@@ -9,8 +9,8 @@ const body = () => {
   return (
     <>
 
-      
-     <table border={1}>
+      <div>
+     <table >
         <tbody>
      <tr>
         <td></td>
@@ -22,15 +22,14 @@ const body = () => {
         <td></td>
          <td align='center'>User Generated content in real time will have multiple touch points for offshoring</td>
      </tr>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
+     
      <tr>
         <td><FaBalanceScale/>
             <h5>EasierWork Organization</h5>
             <p>Efficiently unleash cross-media information without cross-media value. Quickly timely deliverables for real-time schemas. </p>
+            <Nav.Link href='/eo'><u>Learn More- </u></Nav.Link>        
         </td>
+        
         <td><FaSearch/>
             <h5>
                 Fast Connection
@@ -38,7 +37,9 @@ const body = () => {
             <p>
                 Completely pursue scalable customer cross-media through potentialities.Holistically quickly installed in portals. 
             </p>
+            <Nav.Link href='/fc'><u>Learn More- </u></Nav.Link> 
         </td>
+        
         <td><FaStream/>
             <h5>
                 Streamlined Processes
@@ -46,20 +47,28 @@ const body = () => {
             <p>
                 Objectively innovate empowered scalable manufactured products whereas parallelplatforms predominate extensible.
             </p>
+            <Nav.Link href='/sp'><u>Learn More- </u></Nav.Link> 
         </td>
      </tr>
      <tr>
+        
         <td><FaInfinity/>
             <h5>Easier Integrations</h5>
             <p>Completely pursue scalable customer try through potentialities.Pontificate portals installed.Efficently unleash information</p>
+            <Nav.Link href='/ei'><u>Learn More- </u></Nav.Link> 
         </td>
+        
+        
         <td><FaShopify/>
             <h5>Market Analytics</h5>
             <p>Phosfluroscently engage worldwide methodologies with web-enabled Interactively cordinate.</p>
+            <Nav.Link href='/ma'><u>Learn More- </u></Nav.Link> 
         </td>
+        
         <td><FaBuilding/>
             <h5>WorkFlow Builders</h5>
             <p>Collaboratively administrate turnkey service channels where as virtual e-trailers.This is objectively scalable metrics whereas.</p>
+            <Nav.Link href='/wb'><u>Learn More- </u></Nav.Link> 
         </td>
      </tr>
      <br>
@@ -68,7 +77,9 @@ const body = () => {
      <br></br>
      </tbody>
      </table>
+</div>
 
+<div>
      <table>
      <tbody>
      <tr>
@@ -116,7 +127,7 @@ const body = () => {
      </tbody>
 
      </table>
-     
+     </div>
      <br></br>
      <br></br>
       

@@ -27,17 +27,17 @@ const Header =() =>{
                 </Container>
                 
 
-                
+            
             </Navbar>
             <Navbar bg='dark' variant ="dark"  >
              <Nav >
                 <h1>Your Supercharged <br></br>Design Workflow.</h1>
                 </Nav>   
                 
-                
-                <Nav className='ms-auto'>
+                <Nav className='ms-auto' padding='6'>
                 <img src="abhay.jpg" alt="Italian Trulli" width="250" height="360" ></img>
                 </Nav>
+                
                 
             </Navbar>
             <Navbar bg='dark' variant ="dark" expand='md' collapseOnSelect>
